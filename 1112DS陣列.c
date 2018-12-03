@@ -8,9 +8,9 @@
 #include <time.h>
 
 int main(){
-	int array[101];
+	int array[11];
 	int newNumber, index;
-	for(int i=0; i<100; i++){
+	for(int i=0; i<10; i++){
 		/*printf("Data of Array[%d] : ", i+1);*/
 		/*scanf("%d", &array[i]);*/
 		int random = (rand()%100)+1;
@@ -18,7 +18,7 @@ int main(){
 	}
 
 	// Output origin
-	for(int i=0; i<100; i++){
+	for(int i=0; i<10; i++){
 		printf("%d\t", array[i]);
 	}
 	printf("\n");
@@ -40,7 +40,7 @@ int main(){
 
 
 	// Output result
-	for(int i=0; i<100; i++){
+	for(int i=0; i<11; i++){
 		printf("%d\t", array[i]);
 	}
 	printf("\n");
